@@ -1,12 +1,11 @@
 import "./App.css";
-import Covid19 from "./Components/Covid19";
-import FetchAPI from "./Components/FetchAPI";
+import TaskManager from "./Components/PhoneBook/TaskManager";
+
 
 function App() {
   return (
     <>
-      {/* <FetchAPI /> */}
-      {/* <Covid19 /> */}
+    <TaskManager/>
     </>
   );
 }
