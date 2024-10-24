@@ -1,11 +1,14 @@
+import { Provider } from "react-redux";
 import "./App.css";
-import TaskManager from "./Components/PhoneBook/TaskManager";
-
+import BirdList from "./Components/BirdList";
+import store from "./store/store";
 
 function App() {
   return (
     <>
-    <TaskManager/>
+      <Provider store={store}>
+        <BirdList />
+      </Provider>
     </>
   );
 }
